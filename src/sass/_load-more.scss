@@ -1,0 +1,22 @@
+.load-more {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #5f66a0;
+  border-color: #5f66a0;
+  border-radius: 5px;
+  color: #272b45;
+  transition-duration: 500ms;
+}
+
+.load-more:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.66);
+  color: #0a143578;
+  font-weight: 600;
+  transition-duration: 500ms;
+}
+
+.is-hidden {
+  display: none;
+}
